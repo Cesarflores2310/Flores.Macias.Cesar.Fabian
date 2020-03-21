@@ -1,0 +1,6 @@
+$ mkdir -p ~/rosserial_ws/src
+$ catkin_init_workspace
+$ git clone
+$ cd ~/rosserial_ws
+$ catkin_make
+$ echo “source ~/rosserial_ws/devel/setup.bash” >>~/.bashrc<br /> $ source ~/.bashrc
